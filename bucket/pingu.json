@@ -1,0 +1,30 @@
+{
+    "version": "0.0.4-alpha",
+    "description": "🐧ping command but with pingu",
+    "homepage": "https://github.com/sheepla/pingu",
+    "license": "MIT License",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/sheepla/pingu/releases/download/v0.0.4-alpha/pingu_0.0.4-alpha_Windows_i386.zip",
+            "hash": "a85af206b5872e9e8f30bf5bcee12787040ccd109a30bb78a5e1776a190bbe06"
+        },
+        "arm64": {
+            "url": "https://github.com/sheepla/pingu/releases/download/v0.0.4-alpha/pingu_0.0.4-alpha_Windows_arm64.zip",
+            "hash": "264e6e518cc720b598c630efd6083f935b74ba50b5274931ee8e472f4b6287af"
+        }
+    },
+    "bin": [
+        "pingu.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/sheepla/pingu/releases/download/v$version/pingu_$version_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/sheepla/pingu/releases/download/v$version/pingu_$version_Windows_arm64.zip"
+            }
+        }
+    }
+}

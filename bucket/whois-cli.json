@@ -1,0 +1,9 @@
+{
+    "version": "",
+    "description": "🌐  A simple command line whois client",
+    "homepage": "https://github.com/sheepla/whois-cli",
+    "license": "Apache License 2.0",
+    "bin": null,
+    "checkver": "github",
+    "autoupdate": {}
+}

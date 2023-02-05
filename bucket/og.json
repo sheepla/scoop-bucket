@@ -1,0 +1,8 @@
+{
+    "version": "",
+    "description": "A typo correcting tool for Go programmers",
+    "homepage": "https://github.com/sheepla/og",
+    "bin": null,
+    "checkver": "github",
+    "autoupdate": {}
+}

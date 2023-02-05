@@ -1,0 +1,9 @@
+{
+    "version": "",
+    "description": "💻 A command line websh client with bash-like interactive UI",
+    "homepage": "https://github.com/sheepla/websh-prompt",
+    "license": "MIT License",
+    "bin": null,
+    "checkver": "github",
+    "autoupdate": {}
+}

@@ -5,7 +5,5 @@
     "license": "MIT License",
     "bin": null,
     "checkver": "github",
-    "autoupdate": {
-        
-    }
+    "autoupdate": {}
 }

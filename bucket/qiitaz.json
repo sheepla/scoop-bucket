@@ -1,6 +1,6 @@
 {
     "version": "0.3.0",
-    "description": "📝 A terminal based Qiita searcher \u0026 viewer",
+    "description": "📝 A terminal based Qiita searcher & viewer",
     "homepage": "https://github.com/sheepla/qiitaz",
     "license": "MIT License",
     "architecture": {
@@ -13,9 +13,7 @@
             "hash": "ea455d4786327fcaf8eb75bc0dd81a2d387f9deaa331081f9d03d76c6cdc80e3"
         }
     },
-    "bin": [
-        "qiitaz.exe"
-    ],
+    "bin": "qiitaz.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

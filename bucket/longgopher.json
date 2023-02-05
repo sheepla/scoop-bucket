@@ -8,19 +8,24 @@
             "url": "https://github.com/sheepla/longgopher/releases/download/v0.0.3/longgopher_0.0.3_Windows_i386.zip",
             "hash": "125c7c28068cc2ffb8cb2185a23a03c6b2f2506a38f47fd3146df0189da39da7"
         },
+        "64bit": {
+            "url": "https://github.com/sheepla/longgopher/releases/download/v0.0.3/longgopher_0.0.3_Windows_x86_64.zip",
+            "hash": "ed1d41f70c8dffe5f7701eb1cba58b552fdea31a86b3ac52322c601b6db07dd0"
+        },
         "arm64": {
             "url": "https://github.com/sheepla/longgopher/releases/download/v0.0.3/longgopher_0.0.3_Windows_arm64.zip",
             "hash": "1edc4e36f22df9cecb31a68a0515bd6524af663ea334be583a76a784184e2c16"
         }
     },
-    "bin": [
-        "longgopher.exe"
-    ],
+    "bin": "longgopher.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {
                 "url": "https://github.com/sheepla/longgopher/releases/download/v$version/longgopher_$version_Windows_i386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/sheepla/longgopher/releases/download/v$version/longgopher_$version_Windows_x86_64.zip"
             },
             "arm64": {
                 "url": "https://github.com/sheepla/longgopher/releases/download/v$version/longgopher_$version_Windows_arm64.zip"

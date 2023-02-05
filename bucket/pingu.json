@@ -13,9 +13,7 @@
             "hash": "264e6e518cc720b598c630efd6083f935b74ba50b5274931ee8e472f4b6287af"
         }
     },
-    "bin": [
-        "pingu.exe"
-    ],
+    "bin": "pingu.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
